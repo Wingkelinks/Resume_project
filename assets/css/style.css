@@ -372,7 +372,7 @@ button[type="submit"] {
 
 /* ----------------------------------Media Queries */
 
-// Large devices (desktops, 992px and up)
+/* Large devices (desktops, 992px and up)  */
 
 @media (min-width: 992px) {
 	.center-form {
