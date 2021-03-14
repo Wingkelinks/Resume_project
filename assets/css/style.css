@@ -370,6 +370,11 @@ button[type="submit"] {
 	border-style: none;
 }
 
+/*--------------------------------------------Map*/
+div#map {
+	min-height: 360px;
+}
+
 /* ----------------------------------Media Queries */
 
 /* Large devices (desktops, 992px and up)  */
@@ -377,6 +382,13 @@ button[type="submit"] {
 @media (min-width: 992px) {
 	.center-form {
 		font-family: "Exo", sans-serif;
+		padding-top: 30px;
+		min-height: 240px;
+		margin: 0 auto;
+		max-width: 50%;
+	}
+
+	.center-form {
 		padding-top: 30px;
 		min-height: 240px;
 		margin: 0 auto;
